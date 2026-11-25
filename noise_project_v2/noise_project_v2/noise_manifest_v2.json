@@ -1,0 +1,77 @@
+{
+  "seed": 2026,
+  "clean_min": 60,
+  "use_target_bands": true,
+  "targets": [
+    55,
+    30,
+    10
+  ],
+  "target_p": [
+    0.35,
+    0.35,
+    0.3
+  ],
+  "max_try_per_cfg": 3,
+  "order": [
+    "overink",
+    "fragment",
+    "perlin",
+    "smudge",
+    "dots",
+    "creases",
+    "scratch",
+    "cut",
+    "partial",
+    "blur",
+    "gauss"
+  ],
+  "cfg_Q2": {
+    "modes": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "mult": 1.0,
+    "over": [
+      2.5,
+      2.9
+    ],
+    "max_noises": 4,
+    "gauss_whole_image": true,
+    "p_dots": 0.3,
+    "p_partial": 0.25,
+    "p_smudge": 0.15,
+    "p_blur": 0.2,
+    "p_scratch": 0.15,
+    "p_cut": 0.1,
+    "p_perlin": 0.25,
+    "p_gauss": 0.3
+  },
+  "cfg_STRONG": {
+    "modes": [
+      0.45,
+      0.3,
+      0.25
+    ],
+    "mult": 1.4,
+    "over": [
+      3.0,
+      3.4
+    ],
+    "max_noises": 4,
+    "gauss_whole_image": true,
+    "p_dots": 0.3,
+    "p_partial": 0.35,
+    "p_smudge": 0.15,
+    "p_blur": 0.2,
+    "p_scratch": 0.15,
+    "p_cut": 0.1,
+    "p_perlin": 0.25,
+    "p_gauss": 0.3
+  },
+  "rows": 2490,
+  "missed_target": 424,
+  "noisy_dir": "/content/drive/MyDrive/NIST/noise_project/noisy_500_v2",
+  "split_csv": "/content/drive/MyDrive/NIST/noise_project/b6000_split.csv"
+}
